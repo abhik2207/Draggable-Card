@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #218ee2;
+}
+
+.card {
+    position: absolute;
+    height: 310px;
+    width: 250px;
+    top: calc(50% - 155px);
+    left: calc(50% - 125px);
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #218ee2;
+    font-size: 20px;
+    cursor: grab;
+    box-shadow: #00000030 0px 5px 10px, #0000003b 0px 3px 3px;
+}
+
+.card:active {
+    cursor: grabbing;
+    box-shadow: #00000014 0px 30px 50px, #0000001a 0px 40px 40px;
+}
