@@ -32,6 +32,7 @@
     font-size: 20px;
     cursor: grab;
     box-shadow: #00000030 0px 5px 10px, #0000003b 0px 3px 3px;
+    user-select: none;
 }
 
 .card:active {
